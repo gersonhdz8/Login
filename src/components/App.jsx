@@ -1,7 +1,7 @@
 
 function App() { 
 
-  return (
+return (
     <>
         
         <div className="max-w-lg p-8 mx-auto my-10 bg-white shadow rounded-xl shadow-slate-300">
@@ -10,7 +10,7 @@ function App() {
 
             <form action="" className="my-10">
                 <div className="flex flex-col space-y-5">
-                  <input type="text" />
+                    <input type="text" />
                     <label>
                         <p className="pb-2 font-medium text-slate-700">Email address</p>
                         <input id="email" name="email" required type="email" className="w-full px-3 py-3 border rounded-lg border-slate-200 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Enter email address"/>
@@ -23,7 +23,7 @@ function App() {
                         <div>
                             <label  className="">
                                 <input type="checkbox" id="remember" className="w-4 h-4 border-slate-200 focus:bg-indigo-600"
-                                  
+                                
                                 /> Remember Me
                             </label>
                         </div>
